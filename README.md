@@ -3,10 +3,10 @@
 ## Aplicação focada no gerenciamento/catálogo de produtos.
 
 ## Páginas do app
-![Foto do App catálogo]()
-![Foto do App detalhe]()
-![Foto do App cart]()
-![Foto do App success]()
+![Foto do App catálogo](https://github.com/fgleilsonf/meep-cart-test/images/catalogo.jpeg)
+![Foto do App detalhe](https://github.com/fgleilsonf/meep-cart-test/images/detalhe.jpeg)
+![Foto do App cart](https://github.com/fgleilsonf/meep-cart-test/images/cart.jpeg)
+![Foto do App success](https://github.com/fgleilsonf/meep-cart-test/images/loading.jpeg)
 
 ## MOBILE
 RODANDO O PROJETO MOBILE
