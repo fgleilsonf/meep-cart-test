@@ -3,13 +3,13 @@ import {Keyboard, TouchableOpacityProps} from 'react-native';
 
 import {Container, Title} from './styles';
 
-interface inputProps extends TouchableOpacityProps {
+interface ButtonProps extends TouchableOpacityProps {
   title: string;
   style?: object;
   disabled: boolean;
 }
 
-const Button: React.FC<inputProps> = ({title, style, disabled, ...rest}) => {
+const Button: React.FC<ButtonProps> = ({title, style, disabled, ...rest}) => {
   const [isKeyBoardVisible, setBoardVisible] = useState(false);
 
   useEffect(() => {

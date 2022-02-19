@@ -54,7 +54,6 @@ const Cart = ({}) => {
   };
 
   const handleAddProduct = (product: Product, quantity: number) => {
-    console.log('handleAddProduct product', product);
     addProduct(product, quantity);
   };
 

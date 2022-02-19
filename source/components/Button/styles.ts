@@ -11,12 +11,13 @@ export const Container = styled.TouchableOpacity.attrs({
 
   justify-content: center;
   align-items: center;
-  background-color: ${props => (props.disabled ? '#fff' : colors.primary_color)};
+  background-color: ${props =>
+    props.disabled ? '#fff' : colors.primary_color};
 `;
 
 export const Title = styled.Text`
   font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
-  color: ${props => (props.disabled ? '#000' : '#fff')};
+  color: ${props => props.disabled ? "#000" : "#fff"};
 `;
